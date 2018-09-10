@@ -15,8 +15,8 @@ sudo npm install n -g
 sudo n stable
 sudo ln -sf /usr/local/bin/node /usr/bin/node
 
-#初回に入れたnodejs,npm古いので混乱を避けるために削除
-sudo apt purge -y nodejs npm
+#初回に入れたnodejs,npm古いので混乱を避けるために削除 ※n packageでnode10.10がうまく行かない？
+#sudo apt purge -y nodejs npm
 
 #現在のバージョン情報を吐き出す
 node -v > node_version.txt
