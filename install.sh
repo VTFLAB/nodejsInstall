@@ -21,7 +21,7 @@ node -v > node_version.txt
 
 #Expressプロジェクト構築
 #プロンプトをechoを使って表示
-echo -n createProjectDIR: 
+echo -n createProjectPath: 
 read dir 
 mkdir $dir
 cd $dir
