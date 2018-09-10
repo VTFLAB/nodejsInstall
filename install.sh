@@ -16,9 +16,6 @@ sudo npm install n -g
 sudo n 8.11.4
 sudo ln -sf /usr/local/bin/node /usr/bin/node
 
-#初回に入れたnodejs古いので混乱を避けるために削除
-sudo apt purge -y nodejs
-
 #現在のバージョン情報を吐き出す
 node -v > node_version.txt
 
