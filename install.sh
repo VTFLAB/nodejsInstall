@@ -31,7 +31,7 @@ sudo npm install express-generator -g
 echo -n createProjectName: 
 read pjName 
 express $pjName
-cd $pjName && npm install
+cd $pjName && sudo npm install
 
 
 #備考
