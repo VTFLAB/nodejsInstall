@@ -1,6 +1,5 @@
-# nodejsInstall
-# nodejs &amp; npm n package  
-初回環境構築要  
+# Express Project Starter 
+Expressプロジェクトの初回環境構築用    
   
 # メモ
 2018/09/11現在の状況  
