@@ -26,7 +26,7 @@ read dir
 mkdir $dir
 cd $dir
 #install Express-generator
-npm install express-generator -g
+sudo npm install express-generator -g
 #プロジェクト名指定
 echo -n createProjectName: 
 read pjName 
