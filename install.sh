@@ -28,7 +28,6 @@ echo -n createProjectDIR:
 read dir 
 mkdir $dir
 cd $dir
-npm init
 #install Express-generator
 npm install express-generator -g
 #プロジェクト名指定
