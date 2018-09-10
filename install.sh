@@ -16,11 +16,27 @@ sudo npm install n -g
 sudo n 8.11.4
 sudo ln -sf /usr/local/bin/node /usr/bin/node
 
-#初回に入れたnodejs,npm古いので混乱を避けるために削除
-sudo apt purge -y nodejs npm
+#初回に入れたnodejs古いので混乱を避けるために削除
+sudo apt purge -y nodejs
 
 #現在のバージョン情報を吐き出す
 node -v > node_version.txt
+
+#Expressプロジェクト構築
+#プロンプトをechoを使って表示
+echo -n createProjectDIR: 
+read dir 
+mkdir $dir
+cd $dir
+npm init
+#install Express-generator
+npm install express-generator -g
+#プロジェクト名指定
+echo -n createProjectName: 
+read pjName 
+express $pjName
+cd $pjName && npm install
+
 
 #備考
 #別バージョンを管理したい場合は以下のように切り替えることが可能
